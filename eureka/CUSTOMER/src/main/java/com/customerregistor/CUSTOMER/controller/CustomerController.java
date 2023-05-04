@@ -1,6 +1,5 @@
 package com.customerregistor.CUSTOMER.controller;
 
-
 import com.customerregistor.CUSTOMER.dto.CustomerDTO;
 import com.customerregistor.CUSTOMER.service.CustomerService;
 import com.customerregistor.CUSTOMER.util.StandardResponse;
@@ -22,6 +21,7 @@ public class CustomerController {
     @PostMapping
 
     public ResponseEntity<StandardResponse> saveCustomer(@RequestBody CustomerDTO customerDTO){
+
 
 
         String massage1 =customerService.saveCustomer(customerDTO);

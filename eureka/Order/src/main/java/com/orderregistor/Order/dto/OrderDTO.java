@@ -23,4 +23,7 @@ public class OrderDTO {
     private String payment_Method;
     private String amount;
     private boolean activeStatus;
+    private String name;
+    private String address;
+    private String contact;
 }

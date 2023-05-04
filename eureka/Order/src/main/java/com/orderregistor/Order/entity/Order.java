@@ -49,4 +49,16 @@ public class Order {
     @Column(name="active_Status",columnDefinition = "TINYINT default 0")
     private boolean activeStatus;
 
+    @Column(name = "name",length = 45,nullable = false)
+    private String name;
+
+
+    @Column(name = "address",length = 45,nullable = false)
+    private String address;
+
+
+    @Column(name = "contact",length = 45,nullable = false)
+    private String contact;
+
+
 }
