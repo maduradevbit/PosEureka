@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          url:https://github.com/maduradevbit/PosEureka.git
+
+
+
+server:
+  port: ${port:8888}
+
+
+
