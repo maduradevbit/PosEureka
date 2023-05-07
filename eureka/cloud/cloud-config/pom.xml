@@ -8,11 +8,11 @@
 		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.client</groupId>
-	<artifactId>springcloudconfigclient</artifactId>
+	<groupId>com.CLOUDCONFIG</groupId>
+	<artifactId>cloud-config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springcloudconfigclient</name>
-	<description>Demo project for Spring Boot</description>
+	<name>cloud-config</name>
+	<description>cloud config </description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
@@ -28,7 +28,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>

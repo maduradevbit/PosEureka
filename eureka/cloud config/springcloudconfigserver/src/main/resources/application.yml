@@ -1,17 +1,11 @@
 spring:
   application:
     name: spring-cloud-config-server
-
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/maduradevbit/git-config-repo
-
-
+          uri: https://github.com/techefx/environment-variable-repo.git
 
 server:
   port: ${port:8888}
-
-
-

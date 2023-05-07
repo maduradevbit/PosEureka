@@ -1,0 +1,8 @@
+
+spring:
+  application:
+    name: spring-cloud-access-service
+server:
+  port: ${port:8100}
+
+
