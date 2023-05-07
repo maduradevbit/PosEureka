@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/maduradevbit/config-repo.git
+
+
+server:
+  port: ${port:8888}

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Property-Access-Service
+server:
+  port: ${port:8100}
